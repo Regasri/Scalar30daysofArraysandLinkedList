@@ -25,17 +25,19 @@ Return an integer denoting the maximum value of A[i] % A[j] for any valid i, j.
 
 Example Input
 Input 1:
-
+```
  A = [1, 2, 44, 3]
+```
 Input 2:
-
+````
  A = [2, 6, 4]
 
-
+````
 Example Output
 Output 1:
-
+````
  3
+````
 Output 2:
 
  4
@@ -61,7 +63,7 @@ int Solution::solve(vector<int> &A) {
               break;
           }
       }
-      return ans;```
-  }`
+      return ans;
+  }
    
-`
+
